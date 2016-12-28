@@ -1,2 +1,9 @@
-$button-fill: hollow !default;
+// Default radius for button.
+$button-radius: 50 !default;
+
+// Default fill for button. Is either solid or hollow.
+$button-fill: solid !default;
+
+// Default font size for button.
+$button-font-size: 1.9rem !default;
 
