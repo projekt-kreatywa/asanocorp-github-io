@@ -13,7 +13,7 @@
 
 // include button
 
-@include foundation-button;
+// @include foundation-button;
 
 /*
 
@@ -64,3 +64,71 @@
 @include foundation-float-classes;
 
 */
+
+body {
+    text-align: right;
+    background: $app-body-bg;
+    background-size: cover;
+    position: relative;
+    overflow: visible;
+    padding-top: 2rem;
+    padding-bottom: $app-body-height + ($subnav-link-padding * 2 + $subnav-font-size - 0.15rem);
+    .headline {
+        color: #474747;
+    }
+    a {
+    padding: $subnav-link-padding 1rem;
+    font-size: $subnav-font-size;
+    color: #474747;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: $transition;
+    &.is-active {
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        color: rgba(71, 71, 71, $subnav-link-opacity);
+    }
+    &:hover {
+        text-decoration: underline;
+        text-decoration-style: dashed;
+        color: rgba(71, 71, 71, $subnav-link-opacity);
+        transition: $transition;
+    }
+}
+}
+
+.app-body-subnav {
+    float: none;
+    position: absolute;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 0;
+    width: 100%;
+    li {
+        //* float: none; float takes no effect when display set to inline-block, uncoment if display changes
+        display: inline-block;
+        a {
+            padding: $subnav-link-padding 1rem;
+            font-size: $subnav-font-size;
+            color: #474747;
+            text-transform: uppercase;
+            display: block;
+            font-weight: 400;
+            letter-spacing: 1px;
+            transition: $transition;
+            &.is-active {
+                text-decoration: underline;
+                text-decoration-style: dashed;
+                color: rgba(71, 71, 71, $subnav-link-opacity);
+            }
+            &:hover {
+                text-decoration: underline;
+                text-decoration-style: dashed;
+                color: rgba(71, 71, 71, $subnav-link-opacity);
+                transition: $transition;
+            }
+        }
+    }
+}

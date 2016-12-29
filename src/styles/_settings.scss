@@ -1,3 +1,36 @@
+// app-background
+$app-body-bg: #ff0000;
+
+// foundation grey pallette 
+$light-gray: #e6e6e6;
+$medium-gray: #cacaca;
+$dark-gray: #8a8a8a;
+$black: #0a0a0a;
+$white: #fefefe;
+
+// asano pallette
+
+$asano-palette: (
+  primary: #1779ba,
+  secondary: #767676,
+  success: #3adb76,
+  warning: #ffae00,
+  alert: #cc4b37,
+);
+
+$app-main-font: 'Source Code Pro',
+monospace;
+$app-body-height: 7.5rem;
+$transition: all .35s ease-in-out;
+$header-bg: #074E68;
+$subnav-link-padding: 0.9rem;
+$subnav-font-size: 0.75rem;
+$subnav-link-opacity: 0.15;
+$header-height: 3.5rem;
+
+
+
+
 // Default radius for button.
 $button-radius: 50 !default;
 
@@ -6,4 +39,3 @@ $button-fill: solid !default;
 
 // Default font size for button.
 $button-font-size: 1.9rem !default;
-
