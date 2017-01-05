@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { AsanoCorpComponent } from './asano-corp/asano-corp.component';
+import { PastebinComponent } from './pastebin/pastebin.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AsanoCorpComponent } from './asano-corp/asano-corp.component';
     HeaderComponent,
     FooterComponent,
     MainContentComponent,
-    AsanoCorpComponent
+    AsanoCorpComponent,
+    PastebinComponent
   ],
   imports: [
     BrowserModule,

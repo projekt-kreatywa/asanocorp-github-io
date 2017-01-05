@@ -1,20 +1,10 @@
 <app-header></app-header>
-
-<app-asano-corp></app-asano-corp>
-
 <div class="row">
-  <div class="small-12 large-expand columns">One</div>
-  <div class="small-12 large-expand columns">Two</div>
-  <div class="small-12 large-expand columns">Three</div>
-  <div class="small-12 large-expand columns">Four</div>
-  <div class="small-12 large-expand columns">Five</div>
-  <div class="small-12 large-expand columns">Six</div>
+  <div class="small-1 medium-2 large-3 columns">1/2/3</div>
+  <div class="columns">
+    Whatever's left!
+    <app-main-content></app-main-content>
+  </div>
+  <div class="small-1  medium-2 large-3 columns">1/2/3</div>
 </div>
-
-<ul>
-  <li class="text" *ngFor="let item of items | async">
-    {{item.$value}}
-  </li>
-</ul>
-
 <app-footer></app-footer>
