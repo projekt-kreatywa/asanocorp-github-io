@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AngularFireModule } from 'angularfire2';
 import { firebaseConfig } from '../environments/firebase.config';
+import { routes } from './app.router';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -26,6 +27,7 @@ import { PastebinComponent } from './pastebin/pastebin.component';
     BrowserModule,
     FormsModule,
     HttpModule,
+    routes,
     AngularFireModule.initializeApp(firebaseConfig)
   ],
   providers: [],
