@@ -13,6 +13,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainContentComponent } from './main-content/main-content.component';
 import { AsanoCorpComponent } from './asano-corp/asano-corp.component';
 import { PastebinComponent } from './pastebin/pastebin.component';
+import { AssociationsComponent } from './associations/associations.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { PastebinComponent } from './pastebin/pastebin.component';
     FooterComponent,
     MainContentComponent,
     AsanoCorpComponent,
-    PastebinComponent
+    PastebinComponent,
+    AssociationsComponent
   ],
   imports: [
     BrowserModule,
